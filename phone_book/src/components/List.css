@@ -1,0 +1,25 @@
+.filter-input {
+  width: 45vw;
+  height: 6vh;
+  line-height: 25px;
+  text-indent: 10px;
+  
+}
+.list {
+  width: 45vw;
+  margin: 2vh auto;
+  list-style-type: none;
+  padding: 0;
+}
+.list li {
+  clear: both;
+}
+.list span {
+  display: block;
+}
+.name {
+  float: left;
+}
+.phone {
+  float: right;
+}
