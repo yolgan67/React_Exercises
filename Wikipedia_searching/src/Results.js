@@ -13,7 +13,6 @@ export default class Result extends Component {
             </>
           ) : null}
         </h2>
-        {/* <h3>{result[0] ? <>"{result[0]}" için arama sonuçları..</> : null}</h3> */}
 
         <ul>
           {result[3]?.map((item, i) => (
