@@ -1,0 +1,85 @@
+.filter-input {
+  width: 45vw;
+  height: 6vh;
+  line-height: 25px;
+  text-indent: 10px;
+  border: 1px solid rgb(230, 225, 225);
+  border-radius: 10px;
+}
+.list {
+  width: 45vw;
+  margin: 2vh auto;
+  list-style-type: none;
+  padding: 0;
+}
+.list li {
+  clear: both;
+  height: 5vh;
+  border-bottom: 1px solid rgba(46, 30, 30, 0.144);
+
+  padding: 5px;
+  text-align: center;
+}
+.list li:hover {
+  transform: scale(0.95);
+  /* background-color: rgba(167, 207, 231, 0.685); */
+  cursor: pointer;
+}
+.list span {
+  padding: 5px;
+  display: block;
+}
+.name {
+  float: left;
+}
+.phone {
+  float: right;
+  margin-right: 10px;
+}
+.close {
+  margin: 7px;
+  float: right;
+  background-color: brown;
+  color: white;
+  /* background-color: white; */
+  border: 1px solid brown;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.input {
+  width: 45vw;
+  height: 6vh;
+  display: flex;
+  margin: 2vh auto;
+  line-height: 25px;
+  text-indent: 10px;
+  border: 1px solid rgb(230, 225, 225);
+  border-radius: 10px;
+}
+.inputField {
+  margin-top: 6vh;
+}
+.main {
+  margin: auto;
+  margin-top: 30px;
+  width: 500px;
+  /* max-height: 600px; */
+  background-color: rgb(199, 218, 230);
+  border-radius: 20px;
+}
+.main h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.add {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(76, 132, 185);
+  border: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.add:hover {
+  opacity: 0.8;
+}
